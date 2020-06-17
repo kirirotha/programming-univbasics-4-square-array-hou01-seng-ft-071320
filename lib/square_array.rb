@@ -9,3 +9,7 @@ def square_array(array)
   end
   return new_array
 end
+
+
+rr = [1, 5, 3, 59, 65]
+square_array(rr)
