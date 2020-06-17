@@ -7,10 +7,6 @@ def square_array(array)
   new_array.push(array[counter] ** 2)
   counter += 1
   end
-  puts array
-  puts new_array
+  return new_array
 end
 
-
-rr = [1, 5, 3, 59, 65]
-square_array(rr)
